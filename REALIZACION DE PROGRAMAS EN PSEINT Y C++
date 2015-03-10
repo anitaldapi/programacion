@@ -1,0 +1,57 @@
+# Intro-a-la-programaci-n
+1) CALCULOS DE AREAS
+EN PSEINT (AREA DE UNA CIRCUNFERENCIA)
+Proceso area_de_una_circunferencia
+	escribir ("ingrese radio");
+	leer r;
+	A<-r*3.141592;
+	escribir "el area de la circunferencia es:",A;
+FinProceso
+EN C++ (AREA DE UN RECTANGULO)
+// AREA DE UN RECTANGULO.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	float h,b,A;
+	cout<<"ingrese altura:";
+	cin>>h;
+	cout<<"ingrese base:";
+	cin>>b;
+	A=b*h;
+	cout<<"el area de un rectangulo es:"<<A;
+	return 0;
+}
+2) REALIZAR EL CALCULO DE IMPUESTO
+EN PSEINT
+Proceso calculo_Del_IVA
+	escribir ("ingrese venta")
+	leer X;
+	T<-X*0.13
+	escribir "el impuesto de la venta es:",T;
+FinProceso
+EN C++
+// CALCULO_DEL_IMPUESTO.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	float X,T;
+	cout<<"ingrese venta:";
+	cin>>X;
+	T=X*0.13;
+	cout<<"el IVA de la venta es:"<<T;
+	return 0;
+}
+
+
